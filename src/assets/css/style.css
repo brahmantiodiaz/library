@@ -1,0 +1,9 @@
+.linkMenu {
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.linkMenu:hover {
+    color:gray;
+    text-decoration: none;
+}
