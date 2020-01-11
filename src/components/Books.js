@@ -9,8 +9,13 @@ class Books extends Component {
   render() {
     return (
       <CardColumns>
-        {/* Buat sebuah perulangan untuk semua objek pada array book maka panggil component Book */}
-        {/* Isi disini  */}
+        {this.props.books.map(book => (
+          <Book
+            key={book._id}
+            book={book}
+            />
+        ))
+        }
       </CardColumns>
     )
   }

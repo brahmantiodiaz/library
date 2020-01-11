@@ -16,15 +16,15 @@ class Header extends Component {
       <div>
         <Navbar color="light" light expand="md" style={{position:'fixed', zIndex:'1000', width:'100%'}}>
           <div  className="container">
-          <NavbarBrand href="/">LearnIT Library App</NavbarBrand>
+          <NavbarBrand href="/">LearnIT Library App untuk project</NavbarBrand>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              {/* Isi to dengan path yang akan dituju. Berikan kata yang merepresentasi Button yang bersanngkutan*/}
-              <NavLink className="linkMenu" to="">          </NavLink>
+             
+              <NavLink className="linkMenu" to="/tambah">Tambah Buku</NavLink>
             </NavItem>
           </Nav>
-          {/* Ubah [isidDenganNama] menjadi nama peserta  */}
-          <NavbarText>oleh [isiDenganNama]</NavbarText>
+         
+          <NavbarText>oleh Brahmantio Diaz</NavbarText>
           </div>
         </Navbar>
       </div>
